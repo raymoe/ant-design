@@ -185,6 +185,8 @@
     "xhr2": "^0.1.4"
   },
   "scripts": {
+    "mytest": "node --inspect-brk=9229 scripts/mytest.js",
+    "mytest2": "node scripts/mytest.js",
     "test": "jest --config .jest.js",
     "test-node": "jest --config .jest.node.js",
     "test-all": "./scripts/test-all.sh",
@@ -202,6 +204,7 @@
     "compile": "antd-tools run compile",
     "tsc": "tsc",
     "start": "rimraf _site && mkdir _site && node ./scripts/generateColorLess.js && cross-env NODE_ENV=development bisheng start -c ./site/bisheng.config.js",
+    "start2": "rimraf _site && mkdir _site && node ./scripts/generateColorLess.js && cross-env NODE_ENV=development bisheng start -c ./site/bisheng.config.js --inspect-brk=9229",
     "start:preact": "node ./scripts/generateColorLess.js && cross-env NODE_ENV=development REACT_ENV=preact bisheng start -c ./site/bisheng.config.js",
     "site": "cross-env NODE_ENV=production bisheng build --ssr -c ./site/bisheng.config.js && node ./scripts/generateColorLess.js",
     "predeploy": "antd-tools run clean && npm run site && cp netlify.toml _site && cp -r .circleci _site",

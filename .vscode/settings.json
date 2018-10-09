@@ -1,0 +1,27 @@
+{
+    "favorites.sortDirection": "DESC",
+    "favorites.groupsFirst": true,
+    "favorites.root": [
+        {
+            "type": "Directory",
+            "name": "h:\\git\\ant-design\\node_modules\\bisheng",
+            "parent_id": null,
+            "workspacePath": "node_modules\\bisheng",
+            "id": "b39mn7e4hW8l5aiL"
+        },
+        {
+            "type": "File",
+            "name": "h:\\git\\ant-design\\.vscode\\launch.json",
+            "parent_id": null,
+            "workspacePath": ".vscode\\launch.json",
+            "id": "4w2mIcZOqSDu7hUp"
+        },
+        {
+            "type": "File",
+            "name": "h:\\git\\ant-design\\scripts\\mytest.js",
+            "parent_id": null,
+            "workspacePath": "scripts\\mytest.js",
+            "id": "f49JaNYmZlTXFgDQ"
+        }
+    ]
+}

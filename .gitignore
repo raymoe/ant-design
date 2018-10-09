@@ -29,7 +29,7 @@ dist
 /es
 elasticsearch-*
 config/base.yaml
-/.vscode/
+#/.vscode/
 /coverage
 yarn.lock
 package-lock.json
