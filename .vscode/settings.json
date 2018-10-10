@@ -22,6 +22,41 @@
             "parent_id": null,
             "workspacePath": "scripts\\mytest.js",
             "id": "f49JaNYmZlTXFgDQ"
+        },
+        {
+            "type": "File",
+            "name": "h:\\coding\\ant-design\\node_modules\\bisheng\\bin\\bisheng-start",
+            "parent_id": null,
+            "workspacePath": "node_modules\\bisheng\\bin\\bisheng-start",
+            "id": "PLgmUjeAdbaKJn34"
+        },
+        {
+            "type": "File",
+            "name": "h:\\coding\\ant-design\\site\\bisheng.config.js",
+            "parent_id": null,
+            "workspacePath": "site\\bisheng.config.js",
+            "id": "4ZT16oczUHf7J5EC"
+        },
+        {
+            "type": "Directory",
+            "name": "h:\\coding\\ant-design\\node_modules\\antd-tools",
+            "parent_id": null,
+            "workspacePath": "node_modules\\antd-tools",
+            "id": "7iVF4EodZDz0XhOu"
+        },
+        {
+            "type": "Group",
+            "name": "webpack",
+            "parent_id": null,
+            "id": "Z5Syt2Nl4zhixKUc"
+        },
+        {
+            "type": "File",
+            "name": "h:\\coding\\ant-design\\webpack.config.js",
+            "parent_id": "Z5Syt2Nl4zhixKUc",
+            "workspacePath": "webpack.config.js",
+            "id": "79uofGVHSh0px132"
         }
-    ]
+    ],
+    "debug.node.autoAttach": "on"
 }

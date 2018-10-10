@@ -4,64 +4,64 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "nodemon",
-            "runtimeExecutable": "nodemon",
-            "restart": true,
-            "protocol": "inspector",	//相当于--inspect了
-            "sourceMaps": true,
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "runtimeArgs": [	//对应nodemon --inspect之后除了启动文件之外的其他配置
-              "--exec",
-              "npm",
-              "run",
-              "mytest",
-            ],
-            "port": 9229
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "nodemon start",
-            "runtimeExecutable": "nodemon",
-            "restart": true,
-            "protocol": "inspector",	//相当于--inspect了
-            "sourceMaps": true,
-            "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen",
-            "runtimeArgs": [	//对应nodemon --inspect之后除了启动文件之外的其他配置
-              "--exec",
-              "npm",
-              "run",
-              "start",
-            ],
-            "port": 9229
-        },
+        // {
+        //     "type": "node",
+        //     "request": "launch",
+        //     "name": "nodemon",
+        //     "runtimeExecutable": "nodemon",
+        //     "restart": true,
+        //     "protocol": "inspector",	//相当于--inspect了
+        //     "sourceMaps": true,
+        //     "console": "integratedTerminal",
+        //     "internalConsoleOptions": "neverOpen",
+        //     "runtimeArgs": [	//对应nodemon --inspect之后除了启动文件之外的其他配置
+        //       "--exec",
+        //       "npm",
+        //       "run",
+        //       "mytest",
+        //     ],
+        //     "port": 9229
+        // },
+        // {
+        //     "type": "node",
+        //     "request": "launch",
+        //     "name": "nodemon start",
+        //     "runtimeExecutable": "nodemon",
+        //     "restart": true,
+        //     "protocol": "inspector",	//相当于--inspect了
+        //     "sourceMaps": true,
+        //     "console": "integratedTerminal",
+        //     "internalConsoleOptions": "neverOpen",
+        //     "runtimeArgs": [	//对应nodemon --inspect之后除了启动文件之外的其他配置
+        //       "--exec",
+        //       "npm",
+        //       "run",
+        //       "start",
+        //     ],
+        //     "port": 9229
+        // },
 
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "npm start",
-            "runtimeExecutable": "npm",
-            "runtimeArgs": [
-                "run-script","start"
-            ],
-            "port": 9229,
-            "timeout": 1000000
-        },
+        // {
+        //     "type": "node",
+        //     "request": "launch",
+        //     "name": "npm start",
+        //     "runtimeExecutable": "npm",
+        //     "runtimeArgs": [
+        //         "run-script","start"
+        //     ],
+        //     "port": 9229,
+        //     "timeout": 1000000
+        // },
 
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "npm mytest",
-            "runtimeExecutable": "npm",
-            "runtimeArgs": [
-                "run-script","mytest"
-            ],
-            "port": 9229
-        }
+        // {
+        //     "type": "node",
+        //     "request": "launch",
+        //     "name": "npm mytest",
+        //     "runtimeExecutable": "npm",
+        //     "runtimeArgs": [
+        //         "run-script","mytest"
+        //     ],
+        //     "port": 9229
+        // }
     ]
 }
